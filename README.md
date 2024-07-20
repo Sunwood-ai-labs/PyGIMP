@@ -36,23 +36,25 @@
 
 # PyGIMP
 
-PythonとGIMPの融合
-
 ## 🌟 Introduction
 
 PyGIMPは、PythonプログラミングとGIMP（GNU Image Manipulation Program）の強力な機能を融合させたプロジェクトです。このツールキットを使用することで、開発者やデザイナーはPythonのシンプルさと柔軟性を活かしながら、GIMPの高度な画像処理機能にアクセスできます。
 
 ## 🎥 Demo
 
-デモを通じて、PyGIMPの使い方や機能を実際に見ることができます。サンプル動画やスクリーンショットを用意しており、ユーザーがどのようにこのツールを利用しているかを紹介します。
+https://github.com/user-attachments/assets/bea57935-2f4a-46be-8932-a57a7151335d
+
 
 ## 🚀 Getting Started
 
 PyGIMPを始めるためには、以下の手順に従ってください：
 
 1. [GIMP](https://www.gimp.org/downloads/)をインストールします。
-2. Pythonをインストールします（バージョンX.Xを推奨）。
+2. Pythonをインストールします（バージョン3.12以上を推奨）。
 3. PyGIMPパッケージをダウンロードし、インストールします。
+    ```bash
+    pip install PyGIMP
+    ```
 4. Pythonスクリプトを作成し、GIMPと連携させて様々な画像処理を行います。
 
 ## 📝 Updates
