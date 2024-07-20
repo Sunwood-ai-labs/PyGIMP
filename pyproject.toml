@@ -1,6 +1,6 @@
 [project]
 name = "pygimp-labs"
-version = "0.2.1"
+version = "0.2.2"
 description = "PythonでGIMPスクリプトを操作するためのパッケージ"
 authors = ["Maki <sunwood.ai.labs@gmail.com>"]
 readme = "README.md"
