@@ -1,0 +1,9 @@
+{
+  "arguments": {
+    "font_size": "78",
+    "input_image": "asset\\input\\input.png",
+    "output_path": "asset\\output\\out2.png",
+    "text": "GIMPを使用して\\nCLIから画像に\\nテキストをオーバーレイする方法"
+  },
+  "script_path": "script\\gimp_script_template.py"
+}
