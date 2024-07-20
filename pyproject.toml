@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pygimp-labs"
-version = "0.2.0"
+version = "0.2.1"
 description = "PythonでGIMPスクリプトを操作するためのパッケージ"
 authors = ["Maki <sunwood.ai.labs@gmail.com>"]
 readme = "README.md"
@@ -18,7 +18,7 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.8"
 loguru = "^0.7.2"
 art = "^6.2"
 
