@@ -4,9 +4,17 @@ version = "0.1.1"
 description = "PythonでGIMPスクリプトを操作するためのパッケージ"
 authors = ["Maki <sunwood.ai.labs@gmail.com>"]
 readme = "README.md"
-license = "MIT"  # ライセンスを追加（適切なライセンスに変更してください）
-homepage = "https://github.com/Sunwood-ai-labs/PyGIMP-Labs"  # GitHubリポジトリのURLを追加
-repository = "https://github.com/Sunwood-ai-labs/PyGIMP-Labs"
+license = "MIT"  # 適切なライセンスに変更してください
+homepage = "https://github.com/Sunwood-ai-labs/PyGIMP"
+repository = "https://github.com/Sunwood-ai-labs/PyGIMP"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12"
+]
 
 [tool.poetry.dependencies]
 python = "^3.12"
@@ -18,15 +26,7 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-pygimp = "pygimp.cli:main"  # コマンドライン名も更新
+pygimp = "pygimp.cli:main"
 
 [tool.poetry.urls]
-"Bug Tracker" = "https://github.com/Sunwood-ai-labs/PyGIMP-Labs/issues"
-
-[tool.poetry.classifiers]
-"Development Status" = "3 - Alpha"
-"Intended Audience" = "Developers"
-"Topic" = "Software Development :: Libraries :: Python Modules"
-"License" = "MIT License"
-"Programming Language" = "Python :: 3"
-"Programming Language" = "Python :: 3.12"
+"Bug Tracker" = "https://github.com/Sunwood-ai-labs/PyGIMP/issues"
