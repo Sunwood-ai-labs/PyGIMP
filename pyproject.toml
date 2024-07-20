@@ -18,7 +18,7 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-pygimp-labs = "pygimp.cli:main"  # コマンドライン名も更新
+pygimp = "pygimp.cli:main"  # コマンドライン名も更新
 
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/Sunwood-ai-labs/PyGIMP-Labs/issues"
