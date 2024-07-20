@@ -18,12 +18,12 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.10"
 loguru = "^0.7.2"
 art = "^6.2"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["setuptools", "wheel", "poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
