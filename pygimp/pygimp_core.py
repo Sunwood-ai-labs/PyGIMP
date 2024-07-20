@@ -38,8 +38,8 @@ class PyGIMP:
             "--batch",
             script_content,
         ]
-
-        logger.info(f"実行コマンド: {' '.join(commands)}")
+        full_command = ' '.join(commands)
+        logger.info(f"実行コマンド: {full_command[:30]} ...")
 
         process = subprocess.Popen(commands, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         stdout, stderr = process.communicate()
