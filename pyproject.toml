@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pygimp"
+version = "0.1.0"
+description = "PythonでGIMPスクリプトを操作するためのパッケージ"
+authors = ["Maki <sunwood.ai.labs@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+loguru = "^0.7.2"
+art = "^6.2"
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+pygimp = "pygimp.cli:main"
